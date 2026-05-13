@@ -1,13 +1,13 @@
 % \iffalse meta-comment
 %
 % File: tabularht.dtx
-% Version: 2019/12/29 v2.7
+% Version: 2026-05-13 v2.8
 % Info: Tabular with height specified
 %
 % Copyright (C)
 %    2005-2007 Heiko Oberdiek
-%    2016-2019 Oberdiek Package Support Group
-%    https://github.com/ho-tex/oberdiek/issues
+%    2016-2026 Oberdiek Package Support Group
+%    https://github.com/ho-tex/tabularht/issues
 %
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License, either
@@ -23,7 +23,7 @@
 %
 % The Current Maintainers of this work are
 % Heiko Oberdiek and the Oberdiek Package Support Group
-% https://github.com/ho-tex/oberdiek/issues
+% https://github.com/ho-tex/tabularht/issues
 %
 % This work consists of the main source file tabularht.dtx
 % and the derived files
@@ -31,8 +31,8 @@
 %    tabularht-example1.tex, tabularht-example2.tex.
 %
 % Distribution:
-%    CTAN:macros/latex/contrib/oberdiek/tabularht.dtx
-%    CTAN:macros/latex/contrib/oberdiek/tabularht.pdf
+%    CTAN:macros/latex/contrib/tabularht/tabularht.dtx
+%    CTAN:macros/latex/contrib/tabularht/tabularht.pdf
 %
 % Unpacking:
 %    (a) If tabularht.ins is present:
@@ -61,11 +61,11 @@
 %       pdflatex tabularht.dtx
 %
 % Installation:
-%    TDS:tex/latex/oberdiek/tabularht.sty
-%    TDS:doc/latex/oberdiek/tabularht.pdf
-%    TDS:doc/latex/oberdiek/tabularht-example1.tex
-%    TDS:doc/latex/oberdiek/tabularht-example2.tex
-%    TDS:source/latex/oberdiek/tabularht.dtx
+%    TDS:tex/latex/tabularht/tabularht.sty
+%    TDS:doc/latex/tabularht/tabularht.pdf
+%    TDS:doc/latex/tabularht/tabularht-example1.tex
+%    TDS:doc/latex/tabularht/tabularht-example2.tex
+%    TDS:source/latex/tabularht/tabularht.dtx
 %
 %<*ignore>
 \begingroup
@@ -82,7 +82,7 @@
 \input docstrip.tex
 \Msg{************************************************************************}
 \Msg{* Installation}
-\Msg{* Package: tabularht 2019/12/29 v2.7 Tabular with height specified (HO)}
+\Msg{* Package: tabularht 2026-05-13 v2.8 Tabular with height specified (HO)}
 \Msg{************************************************************************}
 
 \keepsilent
@@ -94,11 +94,11 @@
 This is a generated file.
 
 Project: tabularht
-Version: 2019/12/29 v2.7
+Version: 2026-05-13 v2.8
 
 Copyright (C)
    2005-2007 Heiko Oberdiek
-   2016-2019 Oberdiek Package Support Group
+   2016-2026 Oberdiek Package Support Group
 
 This work may be distributed and/or modified under the
 conditions of the LaTeX Project Public License, either
@@ -114,7 +114,7 @@ This work has the LPPL maintenance status "maintained".
 
 The Current Maintainers of this work are
 Heiko Oberdiek and the Oberdiek Package Support Group
-https://github.com/ho-tex/oberdiek/issues
+https://github.com/ho-tex/tabularht/issues
 
 
 This work consists of the main source file tabularht.dtx
@@ -128,9 +128,9 @@ and the derived files
 \generate{%
   \file{tabularht.ins}{\from{tabularht.dtx}{install}}%
   \file{tabularht.drv}{\from{tabularht.dtx}{driver}}%
-  \usedir{tex/latex/oberdiek}%
+  \usedir{tex/latex/tabularht}%
   \file{tabularht.sty}{\from{tabularht.dtx}{package}}%
-  \usedir{doc/latex/oberdiek}%
+  \usedir{doc/latex/tabularht}%
   \file{tabularht-example1.tex}{\from{tabularht.dtx}{example1}}%
   \file{tabularht-example2.tex}{\from{tabularht.dtx}{example2}}%
 }
@@ -159,7 +159,7 @@ and the derived files
 %<*driver>
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesFile{tabularht.drv}%
-  [2019/12/29 v2.7 Tabular with height specified (HO)]%
+  [2026-05-13 v2.8 Tabular with height specified (HO)]%
 \documentclass{ltxdoc}
 \usepackage{holtxdoc}[2011/11/22]
 \begin{document}
@@ -173,9 +173,9 @@ and the derived files
 % \GetFileInfo{tabularht.drv}
 %
 % \title{The \xpackage{tabularht} package}
-% \date{2019/12/29 v2.7}
+% \date{2026-05-13 v2.8}
 % \author{Heiko Oberdiek\thanks
-% {Please report any issues at \url{https://github.com/ho-tex/oberdiek/issues}}}
+% {Please report any issues at \url{https://github.com/ho-tex/tabularht/issues}}}
 %
 % \maketitle
 %
@@ -395,7 +395,7 @@ and the derived files
 %    \begin{macrocode}
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{tabularht}%
-  [2019/12/29 v2.7 Tabular with height specified (HO)]
+  [2026-05-13 v2.8 Tabular with height specified (HO)]
 %    \end{macrocode}
 %
 % \subsection{Environments}
@@ -979,30 +979,10 @@ and the derived files
 % \paragraph{Package.} This package is available on
 % CTAN\footnote{\CTANpkg{tabularht}}:
 % \begin{description}
-% \item[\CTAN{macros/latex/contrib/oberdiek/tabularht.dtx}] The source file.
-% \item[\CTAN{macros/latex/contrib/oberdiek/tabularht.pdf}] Documentation.
+% \item[\CTAN{macros/latex/contrib/tabularht/tabularht.dtx}] The source file.
+% \item[\CTAN{macros/latex/contrib/tabularht/tabularht.pdf}] Documentation.
 % \end{description}
 %
-%
-% \paragraph{Bundle.} All the packages of the bundle `oberdiek'
-% are also available in a TDS compliant ZIP archive. There
-% the packages are already unpacked and the documentation files
-% are generated. The files and directories obey the TDS standard.
-% \begin{description}
-% \item[\CTANinstall{install/macros/latex/contrib/oberdiek.tds.zip}]
-% \end{description}
-% \emph{TDS} refers to the standard ``A Directory Structure
-% for \TeX\ Files'' (\CTANpkg{tds}). Directories
-% with \xfile{texmf} in their name are usually organized this way.
-%
-% \subsection{Bundle installation}
-%
-% \paragraph{Unpacking.} Unpack the \xfile{oberdiek.tds.zip} in the
-% TDS tree (also known as \xfile{texmf} tree) of your choice.
-% Example (linux):
-% \begin{quote}
-%   |unzip oberdiek.tds.zip -d ~/texmf|
-% \end{quote}
 %
 % \subsection{Package installation}
 %
@@ -1019,11 +999,11 @@ and the derived files
 % \begin{quote}
 % \def\t{^^A
 % \begin{tabular}{@{}>{\ttfamily}l@{ $\rightarrow$ }>{\ttfamily}l@{}}
-%   tabularht.sty & tex/latex/oberdiek/tabularht.sty\\
-%   tabularht.pdf & doc/latex/oberdiek/tabularht.pdf\\
-%   tabularht-example1.tex & doc/latex/oberdiek/tabularht-example1.tex\\
-%   tabularht-example2.tex & doc/latex/oberdiek/tabularht-example2.tex\\
-%   tabularht.dtx & source/latex/oberdiek/tabularht.dtx\\
+%   tabularht.sty & tex/latex/tabularht/tabularht.sty\\
+%   tabularht.pdf & doc/latex/tabularht/tabularht.pdf\\
+%   tabularht-example1.tex & doc/latex/tabularht/tabularht-example1.tex\\
+%   tabularht-example2.tex & doc/latex/tabularht/tabularht-example2.tex\\
+%   tabularht.dtx & source/latex/tabularht/tabularht.dtx\\
 % \end{tabular}^^A
 % }^^A
 % \sbox0{\t}^^A
@@ -1181,6 +1161,9 @@ and the derived files
 %   \begin{Version}{2019/12/29 v2.7}
 %   \item
 %     Use \cs{iftex} package.
+%   \end{Version}
+%   \begin{Version}{2026-05-13 v2.8}
+%   \item Updated for \cs{text@vcenter} use in underlying array code.
 %   \end{Version}
 % \end{History}
 %
