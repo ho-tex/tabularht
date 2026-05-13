@@ -1,0 +1,15 @@
+\documentclass{article}
+% loading should not error see gh issue #1
+\input{regression-test}
+\START
+\usepackage{tabularht}
+
+\begin{document}
+
+\begin{tabularht}{50mm}{|l|l|}
+Hello & World\\
+\interrowfill[1,3]
+Foo & Bar
+\end{tabularht}
+
+\end{document}
