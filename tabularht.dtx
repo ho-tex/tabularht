@@ -406,12 +406,12 @@ and the derived files
 
 \toks@={%
   \begingroup
-    \long\def\x#1\vcenter\fi\fi\bgroup#2\@sharp#3#4\@nil{%
+    \long\def\x#1\fi\fi\bgroup#2\@sharp#3#4\@nil{%
       \endgroup
       \gdef\@array[##1]##2{%
         \tabH@array@init
         #1%
-        \vcenter\fi\fi
+        \fi\fi
         \@toarrayheight
         \bgroup
         \let\@toarrayheight\@empty
