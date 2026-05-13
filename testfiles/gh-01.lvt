@@ -4,7 +4,9 @@
 \START
 \usepackage{tabularht}
 
+\OMIT
 \begin{document}
+\TIMO
 
 \begin{tabularht}{50mm}{|l|l|}
 Hello & World\\
