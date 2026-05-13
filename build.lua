@@ -11,6 +11,7 @@ maxprintline=10000
 checkruns = 2
 
 tagfiles = {"*.dtx", "*.md"}
+unpackfiles = {"*.dtx"}
 
 function update_tag(file,content,tagname,tagdate)
 
